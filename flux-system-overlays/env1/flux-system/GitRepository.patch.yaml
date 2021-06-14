@@ -1,7 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: GitRepository
-metadata:
-  name: flux-system
-  namespace: flux-system
-spec:
-  url: ssh://git@github.com/geoffhendrey/flux-environments
