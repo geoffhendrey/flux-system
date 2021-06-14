@@ -22,7 +22,7 @@ metadata:
 spec:
   interval: 10m0s
   #the path to the correct cluster should be replaced by an overlay
-  path: ./environment-overlays/env1
+  path: ./
   prune: true
   sourceRef:
     kind: GitRepository
