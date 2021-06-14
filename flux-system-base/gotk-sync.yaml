@@ -8,7 +8,7 @@ spec:
   interval: 1m0s
   ref:
     #the branch of the flux-environments repo may be set by an overlay
-    branch: main
+    branch: master
   secretRef:
     name: flux-system
   #the url should be replaced by an overlay
